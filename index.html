@@ -1,74 +1,82 @@
  <html>
  <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 	<script src="https://kit.fontawesome.com/f00c14539b.js" crossorigin="anonymous"></script>
+	
 	<title>StartPage</title>
  </head>
  <body>
-	<div class="container">
-		<div id="time" class="time"></div>
-		
-		<form method="GET" action="https://www.google.com/search">
-			<input name="as_q" class="search-field" autofocus>
-			<button type="submit" class="search-submit" value="" style="fill: white"></button>
-		</form>
-		
-		<div class="box">
-			<div class="box-container">
-				<div class="heading">Entertainment</div>
-				<a href="https://www.netflix.com/" target="_blank">
-					<div class="link" tabindex="2">Netflix</div>
-				</a>
-				
-				<a href="https://www.twitch.tv" target="_blank">
-					<div class="link" tabindex="4">Twitch</div>
-				</a>
-				<a href="https://www.wakanim.tv/" target="_blank">
-					<div class="link" tabindex="1">Wakanim</div>
-				</a>
-				<a href="https://www.youtube.com/" target="_blank">
-					<div class="link" tabindex="1">Youtube</div>
-				</a>
-			</div>
-			<div class="box-container">
-				<div class="heading">Develop</div>
-				<a href="https://github.com/ex0hunt" target="_blank">
-					<div class="link" tabindex="1">GitHub</div>
-				</a>
-				
-			</div>
-			<div class="box-container">
-				<div class="heading">Study</div>
-				<a href="https://coursera.org" target="_blank">
-					<div class="link" tabindex="5">Coursera</div>
-				</a>
-			</div>
-			<div class="box-container">
-				<div class="heading">Creative</div>
-				<a href="https://www.dafont.com/" target="_blank">
-					<div class="link" tabindex="12">dafont</div>
-				</a>
-				<a href="https://unsplash.com/" target="_blank">
-					<div class="link" tabindex="10">Unsplash</div>
-				</a>
-				<a href="https://wallhaven.cc/" target="_blank">
-					<div class="link" tabindex="10">Wallhaven</div>
-				</a>
-				
-			</div>
-			<div class="box-container">
-				<div class="heading" >Social</div>
-				<a href="https://www.reddit.com" target="_blank">
-					<div class="link" tabindex="4">Reddit</div>
-				</a>
-				<a href="https://www.twitter.com/" target="_blank">
-					<div class="link" tabindex="3">Twitter</div>
-				</a>
-				
-			</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div id="time" class="time"></div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6 offset-md-3 justify-content-center">
+            <form method="GET" action="https://www.google.com/search">
+                <input name="as_q" class="search-field" autofocus>
+                <button type="submit" class="search-submit" value="" style="fill: white"></button>
+            </form>
 		</div>
-	</div>
+    </div>
+    
+    <div class="row align-items-start justify-content-center">
+    <div class="col-md-2 box">
+        <div class="heading">Entertainment</div>
+        <a href="https://www.netflix.com/" target="_blank">
+                <div class="link" tabindex="1">Netflix</div>
+        </a>
+        <a href="https://www.twitch.tv" target="_blank">
+            <div class="link" tabindex="2">Twitch</div>
+        </a>
+        <a href="https://www.wakanim.tv/" target="_blank">
+            <div class="link" tabindex="3">Wakanim</div>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <div class="link" tabindex="4">Youtube</div>
+        </a>
+    </div>
+    <div class="col-md-2 box">
+        <div class="heading">Develop</div>
+        <a href="https://github.com/ex0hunt" target="_blank">
+            <div class="link" tabindex="5">GitHub</div>
+        </a>
+    </div>
+    <div class="col-md-2 box">
+        <div class="heading">Study</div>
+        <a href="https://coursera.org" target="_blank">
+            <div class="link" tabindex="6">Coursera</div>
+        </a>
+    </div>
+    <div class="col-md-2 box">
+        <div class="heading">Creative</div>
+
+        <a href="https://www.deviantart.com/" target="_blank">
+            <div class="link" tabindex="8">DeviantArt</div>
+        </a>
+        <a href="https://unsplash.com/" target="_blank">
+            <div class="link" tabindex="10">Unsplash</div>
+        </a>
+        <a href="https://wallhaven.cc/" target="_blank">
+            <div class="link" tabindex="11">Wallhaven</div>
+        </a>
+    </div>
+    <div class="col-md-2 box">
+        <div class="heading" >Social</div>
+        <a href="https://www.reddit.com" target="_blank">
+            <div class="link" tabindex="12">Reddit</div>
+        </a>
+        <a href="https://www.twitter.com/" target="_blank">
+            <div class="link" tabindex="13">Twitter</div>
+        </a>
+    </div>
+    </div>
 	
 	<script src="script.js"></script>
 	
