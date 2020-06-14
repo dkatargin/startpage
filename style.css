@@ -15,12 +15,12 @@ body {
 .heading{
     margin: 10px 0 15px 0px;
     font-family: 'Inconsolata', monospace;
-    font-size: 20;
+    font-size: 24;
 }
 
 
 .box {
-	background-color: #404552;
+	background-color: #303441;
 	border-radius: 5px;
     margin-top: 20px;
     margin-left: 10px;
@@ -34,6 +34,7 @@ body {
 
 .box a{
     color: #7c818c;
+    font-size: 20;
 }
 
 .box a:hover {
@@ -43,7 +44,7 @@ body {
 
 
 .container form {
-	background-color: #404552;
+	background-color: #303441;
 	border-radius: 5px;
 }
 
