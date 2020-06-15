@@ -7,7 +7,7 @@ body {
 .time {
     text-align: center;
     font-family: 'ZCOOL QingKe HuangYou';
-    font-size: 80pt;
+    font-size: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -15,7 +15,7 @@ body {
 .heading {
     margin: 10px 0 15px 0px;
     font-family: 'Inconsolata', monospace;
-    font-size: 24pt;
+    font-size: 24px;
 }
 
 
@@ -34,7 +34,7 @@ body {
 
 .box a {
     color: #7c818c;
-    font-size: 20pt;
+    font-size: 20px;
 }
 
 .box a:hover {
