@@ -1,40 +1,40 @@
 body {
-	background-color: #272b39;
-	color: #5294e2;
+    background-color: #272b39;
+    color: #5294e2;
 }
 
 
 .time {
     text-align: center;
     font-family: 'ZCOOL QingKe HuangYou';
-    font-size: 80;
+    font-size: 80pt;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.heading{
+.heading {
     margin: 10px 0 15px 0px;
     font-family: 'Inconsolata', monospace;
-    font-size: 24;
+    font-size: 24pt;
 }
 
 
 .box {
-	background-color: #303441;
-	border-radius: 5px;
+    background-color: #303441;
+    border-radius: 5px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 10px;
 }
 
-.box .link{
+.box .link {
     margin-bottom: 10px;
 }
 
-.box a{
+.box a {
     color: #7c818c;
-    font-size: 20;
+    font-size: 20pt;
 }
 
 .box a:hover {
@@ -44,29 +44,29 @@ body {
 
 
 .container form {
-	background-color: #303441;
-	border-radius: 5px;
+    background-color: #303441;
+    border-radius: 5px;
 }
 
 .container form .search-field, .container form .search-submit {
-	background: none;
-	outline: none;
-	border: none;
-	line-height: 40px;
-	position: relative;
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 40px;
+    position: relative;
 }
 
 .container form .search-field {
-	width: 89%;
-	padding-left: 15px;
-	color: white;
-	font-size: 30px;
+    width: 89%;
+    padding-left: 15px;
+    color: white;
+    font-size: 30px;
 }
 
 .container form .search-submit {
-	width: 10%;
+    width: 10%;
 }
 
 .container form .search-submit:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
