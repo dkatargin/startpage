@@ -81,7 +81,7 @@
 
     <script>
         function updateClock() {
-            var options = {hour: '2-digit', minute:'2-digit'}
+            var options = {hour: '2-digit', minute:'2-digit', hour12: false}
             var dateString = new Date().toLocaleString(navigator.languages[0], options);
             document.getElementById('time').innerHTML = dateString;
             setTimeout(updateClock, 1000);
